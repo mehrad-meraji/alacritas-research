@@ -39,3 +39,7 @@ export const LinkButton = styled.a`
   align-items: center;
   justify-content: center;
 `
+export const StyledResourceContainer = styled.section`
+  width: 100%;
+  margin-top: 40px;
+`

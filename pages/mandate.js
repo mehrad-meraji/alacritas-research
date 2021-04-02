@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from "next/head";
-import {SectionContainer} from "../styles/global-style-variables";
+import {SectionContainer, StyledResourceContainer} from "../styles/global-style-variables";
+import Resources from "../Components/Resources";
 
 function Mandate(props) {
   return (
@@ -97,7 +98,11 @@ function Mandate(props) {
         <p>Completed on the day before the artist’s suicide<br/>
           Wallace Collection, London; <a href={"http://www.humanitiesweb.org/human.php?s=g&p=c&a=p&ID=474"}>HumanitiesWeb.org</a>
         </p>
+        <StyledResourceContainer>
+          <Resources/>
+        </StyledResourceContainer>
       </SectionContainer>
+      
     </>
   );
 }

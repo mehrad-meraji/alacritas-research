@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from "next/head";
-import {SectionContainer} from "../styles/global-style-variables";
+import {SectionContainer, StyledResourceContainer} from "../styles/global-style-variables";
+import Resources from "../Components/Resources";
 
 function Bio(props) {
   return (
@@ -45,7 +46,11 @@ function Bio(props) {
         <p>Clients have included Guardian Capital, Sprott, and Roundtable Capital amongst others Subjects researched have included:</p>
         <p>LNG, Peat as Fuel, Technology of Oil Sands Extraction. </p>
         <p>In the Renewable Energy Sector papers on: Thermal Solar, Photovoltaics (solid state lighting) Biomass, Hydrogen fuel cells, Hydrogen to fuel electricity grids, Geothermal and Energy Storage</p>
+        <StyledResourceContainer>
+          <Resources/>
+        </StyledResourceContainer>
       </SectionContainer>
+  
     </>
   );
 }
