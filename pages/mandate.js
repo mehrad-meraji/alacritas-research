@@ -94,10 +94,6 @@ function Mandate(props) {
           alt={"Time Saving Truth from Falehood and Envy"}
           src={'https://upload.wikimedia.org/wikipedia/commons/8/82/Time_Saving_Truth_from_Falsehood_and_Envy.jpg'}
         />
-        <p><a href={"https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lemoyne"}>François Lemoyne</a> (1688–1737)</p>
-        <p>Completed on the day before the artist’s suicide<br/>
-          Wallace Collection, London; <a href={"http://www.humanitiesweb.org/human.php?s=g&p=c&a=p&ID=474"}>HumanitiesWeb.org</a>
-        </p>
         <StyledResourceContainer>
           <Resources/>
         </StyledResourceContainer>

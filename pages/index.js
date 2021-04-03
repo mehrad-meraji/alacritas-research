@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Header from "../Components/Header";
 import styled from 'styled-components';
 import {variables} from "../styles/global-style-variables";
-import Image from 'next/image'
 import LinkButton from "../Components/LinkButton";
 import Resources from "../Components/Resources";
 import {StyledResourceContainer} from "../styles/global-style-variables";
@@ -16,6 +14,7 @@ const SubHeading = styled.h2`
   letter-spacing: 3.51px;
   line-height: 1.78;
   margin-top: 60px;
+  margin-bottom: 80px;
 `
 const Intro = styled.header`
   display: flex;
@@ -43,7 +42,6 @@ export default function Home() {
         </Intro>
         <SubHeading>Independent Multi-Disciplinary Analysis of the<br/>
           Global Energy Sector</SubHeading>
-        
         <StyledResourceContainer>
           <Resources/>
         </StyledResourceContainer>
